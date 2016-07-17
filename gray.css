@@ -1,0 +1,80 @@
+/* Contrast dark style for *dark* themes */
+
+.dark.platform-win ::-webkit-scrollbar-thumb,
+.dark.platform-mac ::-webkit-scrollbar-thumb,
+.dark.platform-linux ::-webkit-scrollbar-thumb
+{
+    border-radius: 0px;
+    box-shadow: 0 0 0 12px #818181 inset;
+}
+
+.dark.platform-win ::-webkit-scrollbar-thumb:hover,
+.dark.platform-mac ::-webkit-scrollbar-thumb:hover,
+.dark.platform-linux ::-webkit-scrollbar-thumb:hover
+{
+    border-radius: 0px;
+    box-shadow: 0 0 0 12px #a3a3a3 inset;
+}
+
+.dark.platform-win ::-webkit-scrollbar-thumb:active,
+.dark.platform-mac ::-webkit-scrollbar-thumb:active,
+.dark.platform-linux ::-webkit-scrollbar-thumb:active
+{
+    border-radius: 0px;
+    box-shadow: 0 0 0 12px #bfbfbf inset;
+}
+
+.dark.platform-win ::-webkit-scrollbar-track,
+.dark.platform-mac ::-webkit-scrollbar-track,
+.dark.platform-linux ::-webkit-scrollbar-track
+{
+    background-color: #313131;
+}
+
+.dark.platform-win ::-webkit-scrollbar-track:hover,
+.dark.platform-mac ::-webkit-scrollbar-track:hover,
+.dark.platform-linux ::-webkit-scrollbar-track:hover
+{
+    background-color: #000000;
+}
+
+
+/* Contrast gray style for *light* themes */
+
+.platform-win ::-webkit-scrollbar-thumb,
+.platform-mac ::-webkit-scrollbar-thumb,
+.platform-linux ::-webkit-scrollbar-thumb
+{
+    border-radius: 0px;
+    box-shadow: 0 0 0 12px #939393 inset;
+}
+
+.platform-win ::-webkit-scrollbar-thumb:hover,
+.platform-mac ::-webkit-scrollbar-thumb:hover,
+.platform-linux ::-webkit-scrollbar-thumb:hover
+{
+    border-radius: 0px;
+    box-shadow: 0 0 0 12px #848484 inset;
+}
+
+.platform-win ::-webkit-scrollbar-thumb:active,
+.platform-mac ::-webkit-scrollbar-thumb:active,
+.platform-linux ::-webkit-scrollbar-thumb:active
+{
+    border-radius: 0px;
+    box-shadow: 0 0 0 12px #777777 inset;
+}
+
+.platform-win ::-webkit-scrollbar-track,
+.platform-mac ::-webkit-scrollbar-track,
+.platform-linux ::-webkit-scrollbar-track
+{
+    background-color: #c1c1c1;
+}
+
+.platform-win ::-webkit-scrollbar-track:hover,
+.platform-mac ::-webkit-scrollbar-track:hover,
+.platform-linux ::-webkit-scrollbar-track:hover
+{
+    background-color: #b7b7b7;
+}

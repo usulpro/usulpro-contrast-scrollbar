@@ -1,0 +1,14 @@
+{
+    "name": "usulpro.contrast-scrollbar",
+    "title": "Contrast scrollbar",
+    "description": "this lightweight extension increases scrollbars visibility. Automatically adapts to the dark / light themes. See the appearance in the link below:",
+    "homepage": "https://github.com/UsulPro/usulpro-contrast-scrollbar",
+    "version": "1.0.0",
+    "author": "UsulPro (https://github.com/UsulPro)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.24.0"
+    },
+    "categories": ["editing", "visual"],
+    "keywords":["scrollbar","contrast","visibility","gray","grey","comfortable","dark","light","theme","appearance"]
+}
